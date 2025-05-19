@@ -43,5 +43,19 @@ It is also the buyer's responsibility to have researched the property fully and 
 
 </p> 
 
+
+<script>
+    // Get the screen width
+    const screenWidth = window.innerWidth;
+
+    // Set the body width to match the screen width
+    document.body.style.width = screenWidth + 'px';
+
+    // update width on window resize
+    window.addEventListener('resize', () => {
+      document.body.style.width = window.innerWidth + 'px';
+    });
+  </script>
+
 </body>
 </html>
