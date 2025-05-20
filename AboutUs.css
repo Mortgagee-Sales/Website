@@ -1,3 +1,25 @@
 body {
   background-color: #ffffff;
 }
+
+ /* Navigation bar styles */
+    .Top-Nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #646464;
+      padding: 10px 0;
+    }
+
+    /* Button link styles */
+    .Top-Nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #959595;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .Top-Nav a:hover {
+      background-color: #929292;
+    }
