@@ -13,7 +13,7 @@ body {
       display: flex;
       justify-content: space-around;
       background-color: #646464;
-      
+      padding: 10px 0;
     }
 
     /* Button link styles */
