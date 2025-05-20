@@ -47,7 +47,7 @@ It is also the buyer's responsibility to have researched the property fully and 
     const screenWidth = window.innerWidth;
 
     // Set the body width to match the screen width
-    document.body.style.width = (screenWidth - (10/screenWidth * 100)) + 'px';
+    document.body.style.width = (screenWidth - (10/window.innerWidth * 100)) + 'px';
 
     // update width on window resize
     window.addEventListener('resize', () => {
