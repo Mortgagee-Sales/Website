@@ -17,7 +17,8 @@
     <a href="AboutUs.html">Contact</a>
   </nav>
 
-  <img src="/Resources/Picture1.jpeg" alt="Photo" style="width:100%; ">
+
+  <img src="/Resources/Picture1.jpeg" alt="Photo" style="width:100%; padding-top: 2%; ">
     
 </head>
 <body>
@@ -30,6 +31,14 @@
     
 
 <script>
+
+    // Get Nav bar
+    const navElement = document.getElementById("Top-Nav");
+    
+    // Get Height of Nav bar and set it to NavBarHeight
+    const NavBarHeight = navElement.element.clientHeight;
+     
+
     // Get the screen width
     const screenWidth = window.innerWidth;
 
