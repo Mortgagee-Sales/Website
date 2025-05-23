@@ -11,7 +11,7 @@ body {
   width: 100vw; /* Full viewport width */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove bottom margin/whitespace */
-  margin-left: calc(-2vw); /* Compensate for 2% padding on .Top-Nav */
+  margin: auto;
 }
 
     /* Navigation bar styles */
