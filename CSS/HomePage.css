@@ -12,7 +12,7 @@ body {
 }
 
 #mainPhoto {
-  width: 100%; /* Full viewport width */
+  width: 100vw; /* Full viewport width */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove bottom margin/whitespace */
  
@@ -31,18 +31,18 @@ body {
   }
 
     /* Button link styles */
-    .Top-Nav a {
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-     /* background-color: #959595;*/
-      border-radius: 5px;
-      transition: background-color 0.3s;
-    }
+  .Top-Nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  /* background-color: #959595;*/
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  }
 
-    .Top-Nav a:hover {
-      background-color: #929292;
-    }
+  .Top-Nav a:hover {
+  background-color: #929292;
+  }
   
 
 h1{
