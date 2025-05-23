@@ -7,6 +7,12 @@ body {
   font-size: medium;
 }
 
+#mainPhoto {
+  width: 100vw; /* Full viewport width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove bottom margin/whitespace */
+  margin-left: calc(-2vw); /* Compensate for 2% padding on .Top-Nav */
+}
 
     /* Navigation bar styles */
     .Top-Nav {
@@ -24,7 +30,7 @@ body {
       color: white;
       text-decoration: none;
       padding: 10px 20px;
-      background-color: #959595;
+     /* background-color: #959595;*/
       border-radius: 5px;
       transition: background-color 0.3s;
     }
