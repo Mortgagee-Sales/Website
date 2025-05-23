@@ -5,6 +5,7 @@ body {
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: medium;
+  margin-top: 60px; /* Adjusted for fixed navbar height *
 }
 
 #mainPhoto {
@@ -21,7 +22,8 @@ body {
       background-color: #003572;
       position: fixed; /* Set the navbar to fixed position */
       top: 0; /* Position the navbar at the top of the page */
-      width: 98%; 
+      z-index: 1000; /* Ensure navbar stays on top */
+      width: 98vw; /* 2% padding on each side */
       padding: 10px 0;
     }
 
