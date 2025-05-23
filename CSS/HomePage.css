@@ -27,6 +27,7 @@ body {
   top: 0;
   width: 100%; /* Ensure navbar spans full width of viewport */
   padding: 10px 0;
+  align-self: center;
   z-index: 1000; /* Ensure navbar stays on top */
   }
 
