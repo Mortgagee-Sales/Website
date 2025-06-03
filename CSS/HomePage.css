@@ -29,7 +29,7 @@ body {
 }
 
 .container:hover .overlay {
-  height: 50%;
+  height: 80%;
 }
 
 .text {
